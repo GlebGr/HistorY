@@ -1,0 +1,204 @@
+    body {
+        background-color: black;
+        height: 100%;
+        font-size: 20px;
+        scroll-snap-type: y mandatory;
+        overflow-y: scroll;
+    }
+    
+    .wraper {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .fullscreen {
+        background-color: blanchedalmond;
+        background-attachment: scroll;
+        background-size: cover;
+        display: flex;
+        min-height: 100vh;
+        padding: 20px 0;
+    }
+    
+    .fullscreen__two {
+        background-color: teal;
+        background-image: none;
+        display: flex;
+        min-height: 100vh;
+        padding: 20px 0;
+    }
+    
+    .fullscreen__three {
+        background-color: rgb(141, 179, 191);
+        display: flex;
+        min-height: 100vh;
+        padding: 20px 0;
+    }
+    
+    .fullscreen__four {
+        background-color: rgb(235, 99, 99)
+    }
+    
+    .fullscreen__five {
+        background-color: rgb(184, 124, 102);
+    }
+    
+    .fullscreen__six {
+        background-color: darkred;
+    }
+    
+    .fullscreen__seven {
+        background-color: rgb(201, 201, 191);
+    }
+    
+    .fullscreen__eight {
+        background-color: thistle;
+    }
+    
+    .fullscrenn__body {
+        flex: 1 1 auto;
+        max-width: 1000px;
+        width: 100%;
+        margin: 0px auto;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0 20px;
+    }
+    
+    .fullscreen__title {
+        font-size: 70px;
+        margin: 0px 0px 20px 0px;
+        margin-top: 60px;
+    }
+    
+    .fullscreen__title__two {
+        font-size: 70px;
+        margin: 0px 0px 20px 0px;
+    }
+    
+    .fullscreen__title__three {
+        font-size: 70px;
+        padding-left: 300px;
+        margin-bottom: 60px;
+        margin-top: 40px;
+    }
+    
+    .fullscreen__title__four {
+        font-size: 70px;
+        margin-bottom: 60px;
+    }
+    
+    .fullscreen__text__two {
+        font-size: 20px;
+        color: black;
+        padding-bottom: 50px;
+    }
+    
+    .fullscreen__title__five {
+        color: white;
+        font-size: 70px;
+        margin-bottom: 60px;
+        margin-left: -800px;
+    }
+    
+    .fullscreen__title__seven {
+        color: black;
+        font-size: 70px;
+        margin-bottom: 60px;
+        margin-left: -800px;
+    }
+    
+    .fullscreen__title__six {
+        color: rgb(255, 255, 255);
+        font-size: 70px;
+        margin-bottom: 60px;
+        margin-left: -800px;
+    }
+    
+    .fullscreen__text {
+        font-size: 20px;
+        color: white;
+        padding-left: 300px;
+        margin-bottom: 60px;
+    }
+    
+    .fullscreen__text__four {
+        color: white;
+        margin-left: -400px;
+        margin-right: 400px;
+    }
+    
+    .fullscreen__text__five {
+        color: black;
+        margin-left: -400px;
+        margin-right: 400px;
+        margin-bottom: 80px;
+    }
+    
+    .photo {
+        width: 400px;
+        height: 500px;
+        margin-left: -200px;
+        margin-bottom: -550px;
+    }
+    
+    .photo_two {
+        width: 600px;
+        height: 500px;
+        margin-left: 180px;
+        margin-bottom: 30px;
+    }
+    
+    .photo_three {
+        margin-bottom: 30px;
+    }
+    
+    .photo_four {
+        width: 650px;
+        height: 450px;
+        margin-left: 600px;
+        margin-top: -450px;
+        margin-bottom: 100px;
+    }
+    
+    .photo_five {
+        margin-bottom: 40px;
+        margin-top: 40px;
+        height: 700px;
+        width: 600px;
+    }
+    
+    .photo_six {
+        width: 650px;
+        height: 500px;
+        margin-left: 650px;
+        margin-top: -550px;
+        margin-bottom: 100px;
+    }
+    
+    .fullscreen__link {
+        margin-bottom: 60px;
+        display: inline-block;
+        line-height: 50px;
+        text-transform: uppercase;
+        color: white;
+        text-decoration: none;
+        letter-spacing: 2px;
+        background-color: rgb(17, 31, 24);
+        align-self: center;
+        padding: 0px 20px;
+    }
+    
+    .footer {
+        background-color: black;
+        text-align: center;
+    }
+    
+    .footer__body {
+        max-width: 1000px;
+        margin: 0px auto;
+        padding: 30px 20px;
+    }
